@@ -17,8 +17,14 @@ def second_challenge
       :hero_friends => []
       }, 
     :capulet => {
-      :patriarch => {},
-      :matriarch => {},
+      :patriarch => {
+         :name => "Lord Capulet",
+        :age => '50'
+      },
+      :matriarch => {
+         :name => "Lady Capulet",
+        :age => '54'
+      },
       :heroine => {},
       :heroine_friends => []
       }}
